@@ -6,10 +6,10 @@
 p {
   color: rgba(7, 2, 17, 0.6);
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 26px;
 }
 button {
   background: #e55473;
@@ -31,24 +31,12 @@ button:hover {
 }
 .section-heading {
   max-width: 500px;
-  text-align: center;
-  margin: 20px auto;
-}
-.section-heading h2 {
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 38px;
-  text-align: center;
-  color: #272727;
-  margin-bottom: 16px;
 }
 
 /* banner section starts here */
 .banner {
-  background-image:linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ), url("../images/banner-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/banner-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 50px auto 120px auto;
@@ -61,6 +49,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 450px;
+  margin: 20px auto;
 }
 .banner-text p {
   color: #fff;
@@ -68,6 +57,7 @@ button:hover {
   font-family: Merriweather;
   font-size: 26px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 .banner-text h1 {
   color: #fff;
@@ -75,4 +65,80 @@ button:hover {
   font-size: 59px;
   font-weight: 800;
   line-height: 77px;
+}
+/* Offer Section Styles starts here */
+#offer{
+  margin-bottom: 200px;
+}
+.offer-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offer-main h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.offer-main p {
+  color: #f00;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer-main h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+.offer-main .offer-img{
+  height: 410px;
+}
+.offer-main .offer-img img{
+  width: 100%;
+}
+.welcome-container{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/new-year-met.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 400px;
+}
+.welcome-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: 420px;
+  margin-left: 110px;
+}
+.welcome-text h2{
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: 5.5px;
+  margin-bottom: 10px;
+}
+.welcome-text p{
+  color: rgba(255, 255, 255, 0.80);
+  font-family: 'inter',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.welcome-text h4{
+color: #FFF;
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
 }
