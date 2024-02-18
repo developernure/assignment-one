@@ -12,7 +12,7 @@ p {
   line-height: 26px;
 }
 button {
-  background: #e55473;
+  background: #f00;
   border-radius: 8px;
   color: #fff;
   border: none;
@@ -67,7 +67,7 @@ button:hover {
   line-height: 77px;
 }
 /* Offer Section Styles starts here */
-#offer{
+#offer {
   margin-bottom: 200px;
 }
 .offer-main {
@@ -97,22 +97,24 @@ button:hover {
   font-weight: 700;
   margin-bottom: 38px;
 }
-.offer-main .offer-img{
+.offer-main .offer-img {
   height: 410px;
 }
-.offer-main .offer-img img{
+.offer-main .offer-img img {
   width: 100%;
 }
-.welcome-container{
+
+/* welcome style starts here */
+.welcome-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/new-year-met.jpg");
-    background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
   height: 400px;
 }
-.welcome-text{
+.welcome-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,7 +122,7 @@ button:hover {
   height: 420px;
   margin-left: 110px;
 }
-.welcome-text h2{
+.welcome-text h2 {
   color: #fff;
   font-family: Merriweather;
   font-size: 52px;
@@ -129,16 +131,48 @@ button:hover {
   letter-spacing: 5.5px;
   margin-bottom: 10px;
 }
-.welcome-text p{
-  color: rgba(255, 255, 255, 0.80);
-  font-family: 'inter',sans-serif;
+.welcome-text p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 20px;
 }
-.welcome-text h4{
-color: #FFF;
-font-family: Inter;
-font-size: 18px;
-font-weight: 700;
+.welcome-text h4 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* information styles starts here */
+#information {
+  margin: 80px 0;
+}
+.information-content {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin: 20px auto;
+}
+.information-content .information-title {
+  color: #f00;
+}
+.information-content p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.information-content .join-now-btn{
+  margin-top: 30px;
 }
