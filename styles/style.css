@@ -271,9 +271,6 @@ button:hover {
   width: 100%;
 }
 /* newsletter styles starts here */
-#newsletter {
-
-}
 .newsletter-main {
   background-color: rgba(255, 0, 0, 0.05);
   padding: 100px 0;
@@ -316,4 +313,55 @@ button:hover {
   padding: 10px;
   font-size: 18px;
   outline: none;
+}
+
+/* footer style starts here */
+#footer{
+  background-color: #070211;
+  padding: 100px 0;
+  margin: 100px 0 0 0 ;
+}
+.footer-sec1{
+  display: flex;
+  justify-content: space-between;
+  
+}
+#footer p{
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+}
+.phone{
+  display: flex;
+}
+.phone-icon{
+  margin-right: 10px;
+}
+.web{
+  display: flex;
+}
+.web-icon{
+  margin-right: 10px;
+}
+.hr-style{
+  margin-top: 30px;
+}
+.hr-style hr{
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-sec2{
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-sec2 img{
+  margin-right: 20px;
+  width: 5%;
+}
+.footer-sec3{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
 }
